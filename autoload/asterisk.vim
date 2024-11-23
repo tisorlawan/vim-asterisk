@@ -203,7 +203,7 @@ endfunction
 
 " @return echo_command: String
 function! s:generate_echo_cmd(message) abort
-    return printf('echo "%s"', escape(a:message, '\"'))
+    return ""
 endfunction
 
 "" Generate command to show error with empty pattern
